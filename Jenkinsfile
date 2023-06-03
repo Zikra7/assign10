@@ -8,7 +8,8 @@ pipeline {
         dockerImage = ''
     }
     
-  
+   stages
+    {
     
     // Building Docker images
     stage('Building image') {
@@ -29,7 +30,7 @@ pipeline {
         }
       }
     }
-    
+    } 
 }
     
     
